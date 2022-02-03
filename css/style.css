@@ -1,0 +1,164 @@
+.background {
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-image: url(../images/image.png);
+    
+}
+
+.background-1 {
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 70%;
+    background-image: url(../images/image.png);
+    
+}
+
+.background-2 {
+    height: 1200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 70%;
+    background-image: url(../images/image.png);
+    
+}
+
+.span1{
+    margin-top: 150px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+    background-color: #2196F3;
+}
+
+.img-border {
+    border: 20px solid rgba(0, 0, 0, 0.9);
+    /* height: 280px; */
+    width: 280px;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.nav-position{
+    /* position: sticky; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.color {
+    background-color: #100e17;
+}
+
+.margin-1{
+    margin-left:10vw;
+}
+
+.margin-2{
+    margin-left: 10vw;
+}
+
+.margin-3{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shadow-1{
+    box-shadow: -1rem 0 3rem #000;
+}
+
+.color-1{
+    color: #2196F3;
+}
+
+.color-2{
+    color: #c05b18;
+}
+
+.color-3{
+    color: #9774fa;
+}
+
+.color-5{
+    background-color: #2196F3;
+    border-radius: 20px;
+}
+
+.border-color {
+    border-color: #2196F3;
+}
+
+.progress-1 {
+    height: 7px;
+    background-color: #626c74;
+    color: #2196F3;
+}
+
+.margin-4{
+    margin-top: -25px;
+}
+
+.fw-1{
+    font-weight: 600;
+    text-align: left !important;
+}
+
+.fw-2{
+    font-weight: 700;
+}
+
+.margin-5{
+    margin-top: -70px;
+}
+
+.fig {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.transform{
+    transform: translateX(-70px) translateY(0) translateZ(0) rotate(0deg) scale(1);
+    transition: 0.5s;
+}
+
+@media all and (min-width: 576px) and (max-width: 767px){
+
+.width-1{
+    width: 90%;
+    height: 90%;
+}
+
+.margin-6{
+    margin-top: 100px;
+}
+
+}
+
+@media all and (min-width: 768px){
+
+.width-1{
+    width: 90%;
+    height: 90%;
+}
+
+.margin-6{
+    margin-top: 100px;
+}
+
+
+    
+}
+
+
+
