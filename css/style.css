@@ -1,3 +1,7 @@
+body {
+    font-family: 'Amiri', serif;
+    font-family: 'Roboto', sans-serif;
+}
 .background {
     height: 700px;
     background-size: cover;
@@ -23,6 +27,14 @@
     background-position: 70%;
     background-image: url(../images/image.png);
     
+}
+
+.background-3 {
+    height: 1200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 70%;
+    background-image: url(../images/mapback.png);
 }
 
 .span1{
@@ -160,5 +172,11 @@
     
 }
 
+.height-1 {
+    height: 50px;
+}
 
+.btn-1{
+    margin-left: -100px;
+}
 
